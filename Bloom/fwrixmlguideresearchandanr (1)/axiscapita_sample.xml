@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Research xmlns="http://www.rixml.org/2010/1/RIXML" researchID="XXXX" createDateTime="2023-03-10T00:00:00+09:00" language="eng">
+  <Product productID="XXXX">
+    <StatusInfo statusType="Published" statusDateTime="2023-03-10T00:00:00+09:00" currentStatusIndicator="Yes">
+      <Version>1</Version>
+    </StatusInfo>
+    <Source>
+      <Organization primaryIndicator="Yes" type="SellSideFirm">
+        <OrganizationID idType="Publisher">TEST</OrganizationID>
+        <OrganizationID idType="Bloomberg">XXXX</OrganizationID>
+        <OrganizationName nameType="Legal">Axis Capital</OrganizationName>
+        <PersonGroup>
+          <PersonGroupMember primaryIndicator="Yes">
+            <Person personID="XXXX">
+              <FamilyName>Periwal</FamilyName>
+              <GivenName>Ankur</GivenName>
+              <DisplayName>Ankur Periwal</DisplayName>
+              <JobTitle/>
+              <Division>DepartmentName</Division>
+              <ContactInfo nature="Business">
+                <Email>AnalystEmail@gmail.com</Email>
+              </ContactInfo>
+            </Person>
+          </PersonGroupMember>
+        </PersonGroup>
+      </Organization>
+    </Source>
+    <Content>
+      <Title>Chemplast Sanmar: China imports reduce; spreads uptick to follow</Title>
+      <Synopsis/>
+      <Resource primaryIndicator="Yes" resourceID="XXXX" language="eng" sizeInBytes="789843">
+        <Length lengthUnit="Pages">10</Length>
+        <MIMEType>application/pdf</MIMEType>
+        <Name>Filename.pdf</Name>
+      </Resource>
+    </Content>
+    <Context external="Yes">
+      <IssuerDetails>
+        <Issuer primaryIndicator="Yes" issuerType="Corporate" domicileCountryCode="IN">
+          <SecurityDetails>
+            <Security primaryIndicator="Yes">
+              <SecurityID idType="Bloomberg" idValue="CHEMPLAS IN"/>
+              <SecurityName>Chemplast Sanmar</SecurityName>
+              <AssetClass assetClass="Equity"/>
+              <AssetType assetType="Stock"/>
+              <SecurityType securityType="Common"/>
+              <Rating ratingAction="Reiterate" priorCurrent="Current" rating="PublisherDefined">
+                <PublisherDefinedValue>Buy</PublisherDefinedValue>
+                <RatingEntity ratingEntity="Publisher"/>
+              </Rating>
+              <SecurityFinancials securityFinancialsType="TargetPrice" publisherDefinedValue="12-Month Target Price">
+                <Currency>INR</Currency>
+                <FinancialValue estimateActual="Estimate">600</FinancialValue>
+              </SecurityFinancials>
+            </Security>
+          </SecurityDetails>
+          <IssuerName nameType="Display">
+            <NameValue>Chemplast Sanmar</NameValue>
+          </IssuerName>
+        </Issuer>
+      </IssuerDetails>
+      <ProductDetails publicationDateTime="2023-03-10T00:00:00+09:00" periodicalIndicator="No">
+        <ProductCategory productCategory="Report"/>
+        <ProductFocus primaryIndicator="Yes" focus="Issuer"/>
+        <EntitlementGroup>
+          <Entitlement includeExcludeIndicator="Include" primaryIndicator="Yes">
+            <AudienceTypeEntitlement audienceType="PublisherDefined">BLOOMBERG_CLASS=0051</AudienceTypeEntitlement>
+          </Entitlement>
+        </EntitlementGroup>
+        <ProductName>Company Report</ProductName>
+      </ProductDetails>
+      <ProductClassifications>
+        <KeywordClassifications>
+          <Keyword>Any Time</Keyword>
+          <Keyword>BLOOMBERG_MENU_CODE=170002</Keyword>
+        </KeywordClassifications>
+        <Discipline disciplineType="Investment"/>
+        <Subject subjectValue="PublisherDefined" publisherDefinedValue="Company Report"/>
+        <Subject subjectValue="Recommendations"/>
+        <Country primaryIndicator="Yes" code="IN"/>
+        <Region primaryIndicator="Yes" regionType="India"/>
+        <AssetClass assetClass="Equity"/>
+        <AssetType assetType="Stock"/>
+        <SectorIndustry code="" level="2" primaryIndicator="Yes" focusLevel="Yes" classificationType="GICS">
+          <Name/>
+        </SectorIndustry>
+      </ProductClassifications>
+    </Context>
+    <Legal>
+      <Copyright/>
+      <Disclaimer/>
+    </Legal>
+  </Product>
+</Research>
